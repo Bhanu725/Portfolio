@@ -1,0 +1,50 @@
+# Personal Portfolio Website
+
+A responsive, single-page personal portfolio built with plain HTML5, CSS3 and Vanilla JavaScript (no frameworks or libraries).
+
+## Features
+
+- **Home** – name, introduction, time-based greeting (Good Morning / Afternoon / Evening), a Welcome button and a call-to-action.
+- **About, Skills, Projects** – education/interests/objective, six skill cards, two project cards (name, description, technologies, link or labelled placeholder).
+- **Contact form** – Full Name, Email, Message with inline validation (empty, whitespace-only, invalid email) and a success message.
+- **Light / dark theme** toggle (remembered in `localStorage`, defaults to the OS preference).
+- **Responsive** layout for mobile, tablet and desktop using Grid, Flexbox and media queries; collapsible mobile menu.
+- **Accessible**: semantic HTML, skip link, labelled fields, `aria-live` messages, visible focus, errors shown with text + icon (not colour alone).
+
+## Technologies
+
+HTML5, CSS3 (custom properties, Flexbox, Grid, media queries), JavaScript ES6+.
+
+## Run locally
+
+No build step is needed.
+
+1. Clone or download this repository.
+2. Open `index.html` in a browser, or serve the folder, e.g. `python -m http.server` and visit `http://localhost:8000`.
+
+## Project structure
+
+```
+personal-portfolio/
+├── index.html
+├── css/style.css
+├── js/script.js
+├── assets/images/profile.svg
+├── README.md
+└── ai-usage.md
+```
+
+## Customising
+
+Replace "Bhanu Venkat", the education line and the project details in `index.html` with your own, and swap `assets/images/profile.svg` for your photo (keep a meaningful `alt`).
+
+## Screenshots
+
+_Add screenshots of the light/dark themes and mobile view here (e.g. `assets/images/screenshot-desktop.png`)._
+
+## Known limitations
+
+- The contact form has no backend; it only shows a success message.
+- The second project link is a placeholder, and the first points back to this page.
+- The profile image is a placeholder illustration.
+- Tested automatically in a simulated DOM and should be checked manually in real browsers (see `ai-usage.md`).
