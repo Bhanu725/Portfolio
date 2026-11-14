@@ -11,13 +11,13 @@ AI generated the first version of the whole project: HTML structure, CSS (theme 
 
 ## Code accepted, modified or rejected
 - **Accepted as generated:** all files in their current form. I have not yet hand-edited the code.
-- **Placeholders to personalise:** the name, education line, project details and avatar are placeholder content chosen by the AI; they need replacing with my real information.
+- **Resume content:** in a follow-up prompt I supplied my resume (PDF) and the AI inserted my name, education, experience, achievements, skills and three projects into the page. Phone and email were deliberately left off the public page. Project links remain placeholders and the avatar is a placeholder.
 - **Rejected:** none so far.
 
 ## Bugs or incorrect suggestions from AI
 - No functional bugs were found in testing.
 - The theme toggle, form validation and submission code ended up in one commit titled "feat: implement theme toggle, greeting, welcome message and navigation", so the commit history does not match the example granularity exactly.
-- Project link for the first project points back to the page itself because no public repository exists yet.
+- The three project links are placeholders because I have not added public repository URLs yet.
 
 ## How it was tested
 - `node --check` for JavaScript syntax.

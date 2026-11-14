@@ -328,3 +328,9 @@ a { color: var(--color-primary); }
   html { scroll-behavior: auto; }
   * { transition: none !important; }
 }
+
+/* ===== Resume-derived content helpers ===== */
+.about-grid h3 { margin-top: 1.5rem; font-size: 1.15rem; }
+.about-grid > div > h3:first-child { margin-top: 0; }
+.muted-note { color: var(--color-text-muted); font-size: 0.95rem; }
+.project-date { margin-bottom: 0.5rem; font-size: 0.9rem; font-weight: 600; color: var(--color-text-muted); }

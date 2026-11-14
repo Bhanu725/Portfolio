@@ -5,7 +5,7 @@ A responsive, single-page personal portfolio built with plain HTML5, CSS3 and Va
 ## Features
 
 - **Home** – name, introduction, time-based greeting (Good Morning / Afternoon / Evening), a Welcome button and a call-to-action.
-- **About, Skills, Projects** – education/interests/objective, six skill cards, two project cards (name, description, technologies, link or labelled placeholder).
+- **About, Skills, Projects** – education, experience, achievements and career objective, six skill cards, three projects (name, description, technologies, link or labelled placeholder).
 - **Contact form** – Full Name, Email, Message with inline validation (empty, whitespace-only, invalid email) and a success message.
 - **Light / dark theme** toggle (remembered in `localStorage`, defaults to the OS preference).
 - **Responsive** layout for mobile, tablet and desktop using Grid, Flexbox and media queries; collapsible mobile menu.
@@ -36,7 +36,7 @@ personal-portfolio/
 
 ## Customising
 
-Replace "Bhanu Venkat", the education line and the project details in `index.html` with your own, and swap `assets/images/profile.svg` for your photo (keep a meaningful `alt`).
+Add your real GitHub project URLs in the Projects section in `index.html` with your own, and swap `assets/images/profile.svg` for your photo (keep a meaningful `alt`).
 
 ## Screenshots
 
@@ -45,6 +45,6 @@ _Add screenshots of the light/dark themes and mobile view here (e.g. `assets/ima
 ## Known limitations
 
 - The contact form has no backend; it only shows a success message.
-- The second project link is a placeholder, and the first points back to this page.
+- Project links are labelled placeholders until public repository URLs are added.
 - The profile image is a placeholder illustration.
 - Tested automatically in a simulated DOM and should be checked manually in real browsers (see `ai-usage.md`).
