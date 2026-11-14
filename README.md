@@ -45,6 +45,6 @@ _Add screenshots of the light/dark themes and mobile view here (e.g. `assets/ima
 ## Known limitations
 
 - The contact form has no backend; it only shows a success message.
-- Project links are labelled placeholders until public repository URLs are added.
+- The profile image is a placeholder illustration.
 - The profile image is a placeholder illustration.
 - Tested automatically in a simulated DOM and should be checked manually in real browsers (see `ai-usage.md`).
