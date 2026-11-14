@@ -4,14 +4,14 @@
 Claude Code (Anthropic, model Claude Sonnet 5.5) inside VS Code.
 
 ## Tasks where AI helped
-AI generated the first version of the whole project: HTML structure, CSS (theme variables, responsive layout), JavaScript (theme toggle, greeting, welcome message, mobile menu, form validation), the placeholder avatar SVG, this report and the README. It also initialised Git and made the commits.
+AI generated the first version of the whole project: HTML structure, CSS (theme variables, responsive layout), JavaScript (theme toggle, greeting, welcome message, mobile menu, form validation), this report and the README. It also initialised Git and made the commits.
 
 ## Representative prompt
 > "In the week-1 folder I want you to do this assignment" followed by the full Personal Portfolio assignment text.
 
 ## Code accepted, modified or rejected
 - **Accepted as generated:** all files in their current form. I have not yet hand-edited the code.
-- **Resume content:** in a follow-up prompt I supplied my resume (PDF) and the AI inserted my name, education, experience, achievements, skills and three projects into the page. Phone and email were deliberately left off the public page. The avatar is a placeholder.
+- **Resume content:** in a follow-up prompt I supplied my resume (PDF) and the AI inserted my name, education, experience, achievements, skills and three projects into the page. Phone and email were deliberately left off the public page. A placeholder avatar image was added at first, then removed at my request.
 - **Rejected:** none so far.
 
 ## Bugs or incorrect suggestions from AI

@@ -29,14 +29,13 @@ personal-portfolio/
 ├── index.html
 ├── css/style.css
 ├── js/script.js
-├── assets/images/profile.svg
 ├── README.md
 └── ai-usage.md
 ```
 
 ## Customising
 
-Add your real GitHub project URLs in the Projects section in `index.html` with your own, and swap `assets/images/profile.svg` for your photo (keep a meaningful `alt`).
+Add your real GitHub project URLs in the Projects section in `index.html` with your own.
 
 ## Screenshots
 
@@ -45,5 +44,4 @@ _Add screenshots of the light/dark themes and mobile view here (e.g. `assets/ima
 ## Known limitations
 
 - The contact form has no backend; it only shows a success message.
-- The profile image is a placeholder illustration.
 - Tested automatically in a simulated DOM and should be checked manually in real browsers (see `ai-usage.md`).
