@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Bhanu Venkat, an aspiring front-end developer.">
+  <title>Bhanu Venkat | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">Bhanu Venkat</a>
+
+      <button class="nav-toggle" id="nav-toggle" type="button"
+              aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation menu">
+        <span aria-hidden="true">&#9776;</span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn btn-outline theme-toggle" id="theme-toggle" type="button" aria-pressed="false">
+        <span id="theme-toggle-icon" aria-hidden="true">&#9790;</span>
+        <span id="theme-toggle-label">Dark mode</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Home -->
+    <section class="section hero" id="home" aria-labelledby="home-title">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="greeting" id="greeting" aria-live="polite">Hello!</p>
+          <h1 id="home-title">Hi, I'm Bhanu Venkat</h1>
+          <p class="hero-subtitle">Aspiring front-end developer who enjoys turning ideas into clean, accessible and responsive websites.</p>
+          <div class="hero-actions">
+            <button class="btn btn-primary" id="welcome-btn" type="button">Welcome!</button>
+            <a class="btn btn-outline" href="#projects">View my work</a>
+          </div>
+          <p class="welcome-message" id="welcome-message" role="status" hidden></p>
+        </div>
+        <img class="hero-image" src="assets/images/profile.svg" width="240" height="240"
+             alt="Illustrated avatar of Bhanu Venkat">
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <h2 class="section-title" id="about-title">About Me</h2>
+        <div class="about-grid">
+          <p>I am a student currently learning web development through a front-end bootcamp. I like building small projects that combine structure (HTML), design (CSS) and behaviour (JavaScript) to solve real problems.</p>
+          <ul class="about-list">
+            <li><strong>Education:</strong> Bachelor's degree in Engineering (update with your details)</li>
+            <li><strong>Interests:</strong> Web design, problem solving, open source</li>
+            <li><strong>Career objective:</strong> Join a product team as a front-end developer and keep growing as an engineer.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section section-alt" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <h2 class="section-title" id="skills-title">Skills</h2>
+        <ul class="card-grid skills-grid">
+          <li class="card skill-card"><h3>HTML5</h3><p>Semantic, accessible page structure.</p></li>
+          <li class="card skill-card"><h3>CSS3</h3><p>Flexbox, Grid and responsive layouts.</p></li>
+          <li class="card skill-card"><h3>JavaScript</h3><p>ES6+, DOM manipulation and events.</p></li>
+          <li class="card skill-card"><h3>Git &amp; GitHub</h3><p>Version control and collaboration.</p></li>
+          <li class="card skill-card"><h3>Problem Solving</h3><p>Breaking tasks into small, testable steps.</p></li>
+          <li class="card skill-card"><h3>Communication</h3><p>Clear writing and teamwork.</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <h2 class="section-title" id="projects-title">Projects</h2>
+        <div class="card-grid projects-grid">
+          <article class="card project-card">
+            <h3>Personal Portfolio</h3>
+            <p>This responsive portfolio website with a light/dark theme toggle and a validated contact form.</p>
+            <ul class="tag-list" aria-label="Technologies used">
+              <li>HTML5</li><li>CSS3</li><li>JavaScript</li>
+            </ul>
+            <a class="project-link" href="#home">View this project</a>
+          </article>
+
+          <article class="card project-card">
+            <h3>To-Do List App</h3>
+            <p>A simple task manager where users can add, complete and delete tasks, saved in the browser.</p>
+            <ul class="tag-list" aria-label="Technologies used">
+              <li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>localStorage</li>
+            </ul>
+            <span class="project-link project-link-placeholder">Link coming soon (placeholder)</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section-alt" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-container">
+        <h2 class="section-title" id="contact-title">Contact Me</h2>
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" autocomplete="name"
+                   aria-describedby="name-error" required>
+            <p class="error-message" id="name-error" role="alert"></p>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" autocomplete="email"
+                   aria-describedby="email-error" required>
+            <p class="error-message" id="email-error" role="alert"></p>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5"
+                      aria-describedby="message-error" required></textarea>
+            <p class="error-message" id="message-error" role="alert"></p>
+          </div>
+
+          <button class="btn btn-primary" id="submit-btn" type="submit">Submit</button>
+          <p class="form-status" id="form-status" role="status" hidden></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="current-year">2026</span> Bhanu Venkat. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
